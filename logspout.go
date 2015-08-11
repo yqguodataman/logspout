@@ -45,7 +45,7 @@ func main() {
 			jobs = append(jobs, job.Name())
 		}
 	}
-	fmt.Printf("# jobs    : %s\n", strings.Join(jobs, " "))
+	fmt.Printf("#------------ jobs    : %s\n", strings.Join(jobs, " "))
 
 	routes, _ := router.Routes.GetAll()
 	if len(routes) > 0 {
